@@ -31,7 +31,7 @@ body {
 #mainContent {
     flex: 1;              
     padding: 20px;
-    color: white;
+    color: rgb(238, 238, 238);
 }
 
 .sectionBreaker {
@@ -46,10 +46,27 @@ body {
     margin: 0 0 10px 0; 
 }
 
+.sideBarSection h2 {
+    margin: 5px auto 5px;
+}
+
+
+
+.sideBarSection h3,p {
+    margin: 5px auto 5px;
+}
+
+.experience-entry h3 {
+  font-size: 2rem;
+  margin: 5px auto 5px;
+  padding: 0px;
+}
+
 
 .sideBarSection{
  padding: 5px;
 }
+
 
 .experience-entry,
 .sideBarSection {
@@ -81,17 +98,19 @@ footer {
 .sidebar-profile img {
     border-radius: 8px;  
     object-fit: cover;
+    border: 2px solid rgb(0, 173, 181);
+    border-left: 8px solid rgb(0, 173, 181);
 }
 
 .sidebar-profile h1 {
-    font-size: 1.2rem;   
+    font-size: 1.8rem;   
     margin: 0;
     line-height: 1.2;
 }
 
 .sidebar-profile p {
-    font-size: 0.85rem;
-    margin: 5px 0 0 0;
+    font-size: 1.2rem;
+    margin: 0px 0 0 0;
     opacity: 0.9;
 }
 
@@ -103,3 +122,4 @@ footer {
 .profile-header p{
   font-size: 1.2rem;  
 }
+
