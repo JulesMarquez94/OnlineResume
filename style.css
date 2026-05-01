@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    max-width: 1400px;
 }
 
 body {
@@ -72,7 +73,6 @@ body {
 .sideBarSection {
     background-color: rgb(238, 238, 238);
     width: 100%; 
-    max-width: 900px;
     margin-bottom: 20px;
     border-radius: 10px;
     border: 2px solid rgb(0, 173, 181);
@@ -123,3 +123,36 @@ footer {
   font-size: 1.2rem;  
 }
 
+.project-entry {
+    background-color: rgb(238, 238, 238);
+    width: 100%; 
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 35% 65% ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 173, 181);
+    border-left: 8px solid rgb(0, 173, 181);
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: #333; 
+}
+
+
+.project-entry h3 {
+  font-size: 2rem;
+  margin: 0 0 10px 0;
+  padding: 0px;
+}
+
+.project-entry ul {
+  font-size: 1rem;
+  margin: 10px ;
+  padding: 0px;
+}
+
+.project-entry img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
