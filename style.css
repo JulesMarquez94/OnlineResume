@@ -30,7 +30,7 @@ body {
 }
 
 #mainContent {
-    flex: 1;              
+    flex: 1 0 800px;              
     padding: 20px;
     color: rgb(238, 238, 238);
 }
