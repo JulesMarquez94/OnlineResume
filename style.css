@@ -133,7 +133,7 @@ footer {
     border-radius: 10px;
     border: 2px solid rgb(0, 173, 181);
     border-left: 8px solid rgb(0, 173, 181);
-    padding: 10px;
+    padding: 10px 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     color: #333; 
 }
@@ -153,6 +153,8 @@ footer {
 
 .project-entry img {
     width: 100%;
-    height: auto;
+    height: 400px;         /* Set your desired fixed height here */
+    object-fit: cover;     /* Crops the image to fit without stretching */
+    object-position: top;
     border-radius: 5px;
 }
